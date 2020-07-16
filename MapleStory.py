@@ -150,7 +150,8 @@ while running:
 
             for j in range(num_of_enemys):
                 EnemyY[j] = 2000
-
+            
+            Effect.play()
             game_over()
 
             break
